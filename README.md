@@ -19,3 +19,14 @@ No individual staff photographs were supplied, so the Photo column currently sho
 
 ## Hosting
 Upload the complete folder to GitHub and enable GitHub Pages. The site is static and does not require a server or database.
+
+## Courses Offered
+Edit the course, eligibility and admission text in the `#courses` section of `index.html`.
+
+## Event photos
+Copy event photos into `assets/gallery/` named `1.jpg` ... `41.jpg`. They appear automatically in the Event Photos section
+(responsive grid, click to enlarge, arrow keys / buttons to move between photos). Missing numbers are skipped.
+
+## Location map
+The map is in the `#location` block at the bottom of the Contact section. For an exact pin, open your Google Maps link,
+choose Share > Embed a map, copy the iframe `src` value and paste it over the existing `src` in `index.html`.
